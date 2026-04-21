@@ -1,0 +1,40 @@
+sort1 uses: Bubble sort
+How do you know?: When data is ramdom and the data size is large, it is the slowest one. When data is in reversed order, it also takes the longest time to finish running.
+When it is in sorted order, it is slightly faster than sort3, selection sort, because it compares two data at a time while sort3 iterates through
+each one, thus takes more time.
+random5000.txt:     0m0.072s
+random10000.txt:    0m0.224s
+random50000.txt:    0m6.5s
+reversed5000.txt:   0m0.059s
+reversed10000.txt:  0m0.210s
+reversed50000.txt:  0m4.873s
+sorted5000.txt:     0m0.028s
+sorted10000.txt:    0m0.037s
+sorted50000.txt:    0m0.267s
+
+sort2 uses: Merge sort
+How do you know?: It is the fastest one in its overall performance.
+random5000.txt:     0m0.034s
+random10000.txt:    0m0.036s
+random50000.txt:    0m0.308s
+reversed5000.txt:   0m0.016s
+reversed10000.txt:  0m0.044s
+reversed50000.txt:  0m0.283s
+sorted5000.txt:     0m0.018s
+sorted10000.txt:    0m0.071s
+sorted50000.txt:    0m0.275s
+
+sort3 uses: Selection sort
+How do you know?: It is faster than sort1, bubble sort, when the data is sorted but in reversed order, becasue this algorithm does not compare two adjacent data and switch the order if needed,
+instead, it iterates through the data and finds the smallest item in the array, thus it is faster than bubble sort. However, when the data is sorted in ascending order and tha data
+size is big, its speed is signficantly slower than sort1, because even if the data is sorted, it still interates through each untouched data as unsorted until it
+finds the smallest number.
+random5000.txt:     0m0.050s
+random10000.txt:    0m0.232s
+random50000.txt:    0m2.847s
+reversed5000.txt:   0m0.040s
+reversed10000.txt:  0m0.146s
+reversed50000.txt:  0m3.030s
+sorted5000.txt:     0m0.053s
+sorted10000.txt:    0m0.141s
+sorted50000.txt:    0m2.718s

@@ -115,7 +115,7 @@ bool vote(int rank, string name, int ranks[])
 // Update preferences given one voter's ranks
 void record_preferences(int ranks[])
 {
-    // Iterate over the ranks array, increment every match whose rank is the lowerst number by 1.
+    // Iterate over the ranks array, increment every match whose rank is the lowerest number by 1.
     for (int i = 0; i < candidate_count - 1; i++)
         for (int j = i + 1; j < candidate_count; j++)
         {
@@ -153,7 +153,7 @@ void add_pairs(void)
 // Sort pairs in decreasing order by strength of victory
 void sort_pairs(void)
 {
-    // Check two adjecent pairs, and use bubble sort to sort pairs in descending order.
+    // Check two adjacent pairs, and use bubble sort to sort pairs in descending order.
     // Exit the loop when no swap is found.
     bool swapped;
 

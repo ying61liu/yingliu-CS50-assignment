@@ -1,0 +1,6 @@
+Their audio aura has an average 0.66 energy, 0.48 valence, and 0.72 danceability.
+
+This aura might not be very representative of the listner because the songs that are good to dance to are usually have high energy and valence.
+The three features -- energy, valence, and danceability -- are not the best standards for deciding one's music preferences.
+To increase the accuracy, maybe one can consider adding in other elements such as music genres, artists, mood, etc.
+
